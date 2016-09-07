@@ -1,0 +1,22 @@
+* {
+     box-sizing: border-box;
+}
+
+.jumbotron {
+  margin-top: 0;
+  text-align: center;
+}
+
+.redline {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+.jumbotron-second {
+  background: #F05F40;
+}
+
+.redline-second {
+  border-color: white;
+}
