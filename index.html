@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Portfolio Site of Yeil Kim</title>
+    <title>Portfolio Site - Yeil</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
@@ -13,7 +13,7 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>        
 </head>
   
-<body id="section1" data-spy="scroll" data-target=".navbar" data-offset="51">
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="51">
     
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div id= class="container-fluid">
@@ -22,16 +22,15 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>MENU <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#section1">YEIL KIM</a>
+                <a class="navbar-brand page-scroll" href="#page-top">YEIL KIM</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#section2">ABOUT</a></li>
-                    <li><a href="#section3">SERVICES</a></li>
-                    <li><a href="#section4">PORTFOLIO</a></li>
-                    <li><a href="#section5">CONTACT</a></li>
+                    <li><a class="page-scroll" href="#about">ABOUT</a></li>
+                    <li><a class="page-scroll" href="#projects">PROJECTS</a></li>
+                    <li><a class="page-scroll" href="#contact">CONTACT</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -41,50 +40,41 @@
         <div class="container">
             <h1>Front End Web Developer</h1>
             <hr class="divider">
-            <p class="jumbotron-p">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">FIND OUT MORE</a></p>
+            <p class="jumbotron-p">Lifelong learner, self-driven, and ready.</p>
+            <p><a class="btn btn-primary btn-lg page-scroll" href="#about" role="button">FIND OUT MORE</a></p>
         </div>
     </div>
-        
-    <section id="section2" class="section section-summary">
+
+    <section id="about" class="section section-about">
         <div class="container">
             <h2>I've got the goods</h2>
-            <hr class="divider divider-second">
-            <p class="summary-p">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <p><a class="btn btn-default btn-lg" href="#" role="button">GET STARTED!</a></p>
-        </div>
-    </section>
-
-    <section id="section3" class="section section-services">
-        <div class="container">
-            <h2>At Your Service</h2>
             <hr class="divider">
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-box">
                         <i class="fa fa-users fa-4x" aria-hidden="true"></i>
                         <h3>Team Player</h3>
-                        <p class="service-p text-muted">Worked with the best professionals in the field.</p>
+                        <p class="service-p text-muted">Worked with professionals currently in the industry.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-box">
                         <i class="fa fa-book fa-4x" aria-hidden="true"></i>
                         <h3>Self-Taught</h3>
-                        <p class="service-p text-muted">Being self-guided has nurtured a propensity for self-management, focus and efficiency.</p>
+                        <p class="service-p text-muted">Being self-guided has developed a propensity for self-management and focus.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-box">
                         <i class="fa fa-newspaper-o fa-4x" aria-hidden="true"></i>
-                        <h3>Up to Date</h3>
-                        <p class="service-p text-muted">Knowledgable about the newest frameworks.</p>
+                        <h3>Languages</h3>
+                        <p class="service-p text-muted">JavaScript, Angular</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-box">
                         <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
-                        <h3>Always On</h3>
+                        <h3>Hooked</h3>
                         <p class="service-p text-muted">Front-end development by choice.</p>
                     </div>
                 </div>
@@ -92,83 +82,18 @@
         </div>
     </section>
 
-    <section id="section4" class="section section-projects">
+    <section id="projects" class="section section-projects">
         <div class="container-fluid">
             <div class="row no-gutter">
-                <div class="col-sm-6 col-lg-4">
-                    <a href="#" class="project-box">
-                        <img src="img/Pluto.jpg" class="img-responsive">
+                <div class="col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2">
+                    <a href="https://yeil.github.io/chess/" class="project-box">
+                        <img src="http://wallpapercave.com/wp/s4jWUD8.jpg" class="img-responsive">
                         <div class="project-box-caption">
                             <div class="project-category text-faded">
-                                Category
+                                Chess
                             </div>
                             <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <a href="#" class="project-box">
-                        <img src="img/Modded rugged sports car.jpg" class="img-responsive">
-                        <div class="project-box-caption">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <a href="#" class="project-box">
-                        <img src="img/Last Moments 1920x1080-Asteroids.jpg" class="img-responsive">
-                        <div class="project-box-caption">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <a href="#" class="project-box">
-                        <img src="img/nuka cola(1920x1080).jpg" class="img-responsive">
-                        <div class="project-box-caption">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <a href="#" class="project-box">
-                        <img src="img/The Sands.jpg" class="img-responsive">
-                        <div class="project-box-caption">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <a href="#" class="project-box">
-                        <img src="img/Witch Doctor by Kuldar Leement.png" class="img-responsive">
-                        <div class="project-box-caption">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
+                                Solo Project
                             </div>
                         </div>
                     </a>
@@ -177,28 +102,32 @@
         </div>
     </section>
 
-    <section id="section5" class="section section-contact">
+    <section id="contact" class="section section-contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2>Let's Get In Touch!</h2>
                     <hr class="divider">
-                    <p class="contact-p">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p class="contact-p">Give a call or send an email and I will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
-                    <p class="contact-p">497-536-5122</p>
+                    <p class="contact-p">(408) 857-8662</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
-                    <p class="contact-p"><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p class="contact-p"><a href="mailto:your-email@your-domain.com">yeilkca@gmail.com</a></p>
                 </div>
             </div>
         </div>
     </section>
 
+        
         <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 
         <script src="script.js"></script>
     </body>
